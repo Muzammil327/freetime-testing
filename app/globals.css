@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FAQ design helpers (Tailwind handles most styles) */
+.rounded-xl { border-radius: 0.75rem; }
+.shadow-sm { box-shadow: 0 1px 2px rgba(16,24,40,0.05); }
+.leading-relaxed { line-height: 1.6; }
+
+/* Footer helpers */
+.border-t { border-top: 1px solid #eceff2; }
+.text-gray-600 { color: #5f6b75; }
+.text-gray-500 { color: #8e98a3; }
+.text-sky-800 { color: #0b2b4a; }
