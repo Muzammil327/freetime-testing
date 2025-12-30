@@ -35,7 +35,7 @@ export default function Page() {
       <main className="min-h-screen bg-white py-12 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Features / Cards section */}
-          <section className="text-center mb-12">
+          {/* <section className="text-center mb-12">
             <h2 className="text-3xl font-extrabold">Empower your wallet</h2>
             <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
               Empower your wallet with seamless access to payments, currency management, and smart conversions, all
@@ -43,7 +43,6 @@ export default function Page() {
             </p>
 
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 items-end">
-              {/* Card 1 */}
               <div className="bg-[#F3F2FF] rounded-xl p-6 shadow-sm flex flex-col justify-between">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white">
@@ -59,7 +58,6 @@ export default function Page() {
                 </div>
               </div>
 
-              {/* Card 2 */}
               <div className="bg-[#F3F2FF] rounded-xl p-6 shadow-sm flex flex-col justify-between">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white">
@@ -75,7 +73,6 @@ export default function Page() {
                 </div>
               </div>
 
-              {/* Card 3 */}
               <div className="bg-[#F3F2FF] rounded-xl p-6 shadow-sm flex flex-col justify-between">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white">
@@ -100,7 +97,7 @@ export default function Page() {
                 </svg>
               </button>
             </div>
-          </section>
+          </section> */}
 
           <h1 className="text-4xl font-extrabold mb-8">Frequently Asked Questions</h1>
 
